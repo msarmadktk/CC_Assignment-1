@@ -1,0 +1,32 @@
+// Global variable declarations
+Ginti x = 42;
+PointWalaNumber pi = 3.14159;
+SachGhoot boolVal = sahi;
+harf symbol = 'A';
+
+/* this is a multi-line comment
+   spanning more than one line
+   just for demonstration
+*/
+
+dekhao "Starting Program...";
+
+{
+   // Local scope
+   Ginti local1 = 100;
+   PointWalaNumber localPi = 1.23456;
+   SachGhoot localCheck = ghalat;
+   harf localChar = 'b';
+
+   dekhao local1;              // Print integer
+   dekhao localPi * pi;        // Some arithmetic
+   dekhao localChar;
+   dekhao boolVal;             // Accessing global boolVal
+
+   // Example of exponent operator
+   dekhao 2 ^ 3;    // 2 raised to the power 3
+}
+
+dekhao x + pi; // Print sum
+dekhao symbol;
+dekhao "End of Program!";
